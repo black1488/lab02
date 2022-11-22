@@ -83,129 +83,129 @@
                             the same at every scale, as in the Menger sponge, the shape is called affine self-similar.
                             Fractal geometry lies within the mathematical branch of measure theory.
                         </div>
-                        <div class="slds-p-top_xx-large">
+                        <!-- <div class="slds-p-top_xx-large">
                             <img class="slds-col" src="../../../resources/pantera3.png"
-                                style="width: auto; height:160px">
-                        </div>
+                                style="width: auto; height:160px"> -->
                     </div>
                 </div>
-            </template>
         </div>
-        <div style="background-color: #1889fa;">
-            <div class="slds-grid slds-size_12-of-12 slds-align_absolute-center" style="height: 100%;">
-                <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-p-bottom_large"
-                    style="grid-template-columns: 150px; column-gap: 3px; display: grid;">
-                    <div>
-                        <div style="text-align: center;">
-                            <label class="inputtext">Pixels by Segment</label>
-                        </div>
-                        <div class="slds-align_absolute-center">
-                            <input type="number" value={unitSegmentCoefficient} onchange={handleChangeUnitSegment}
-                                class="smallinput slds-input">
-                        </div>
-                    </div>
+</template>
+</div>
+<div style="background-color: #1889fa;">
+    <div class="slds-grid slds-size_12-of-12 slds-align_absolute-center" style="height: 100%;">
+        <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-p-bottom_large"
+            style="grid-template-columns: 150px; column-gap: 3px; display: grid;">
+            <div>
+                <div style="text-align: center;">
+                    <label class="inputtext">Pixels by Segment</label>
                 </div>
-                <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-p-bottom_large"
-                    style="grid-template-columns: 20px 60px 60px; column-gap: 3px; display: grid;">
-                    <div style="text-align: center;" class="slds-p-top_large slds-p-right_x-small">
-                        <label class="inputtext">A:</label>
-                    </div>
-                    <div>
-                        <div style="text-align: center;">
-                            <label class="inputtext">X</label>
-                        </div>
-                        <div>
-                            <input data-id="aX" value={getOutputTrapeze.a.x} type="text" class="smallinput slds-input">
-                        </div>
-                    </div>
-                    <div>
-                        <div style="text-align: center;">
-                            <label class="inputtext">Y</label>
-                        </div>
-                        <div>
-                            <input data-id="aY" value={getOutputTrapeze.a.y} type="text" class="smallinput slds-input">
-                        </div>
-                    </div>
-                </div>
-                <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-p-bottom_large"
-                    style="grid-template-columns: 20px 60px 60px; column-gap: 3px; display: grid;">
-                    <div style="text-align: center;" class="slds-p-top_large slds-m-right_x-small">
-                        <label class="inputtext">B:</label>
-                    </div>
-                    <div>
-                        <div style="text-align: center;">
-                            <label class="inputtext">X</label>
-                        </div>
-                        <div>
-                            <input data-id="bX" value={getOutputTrapeze.b.x} type="text" class="smallinput slds-input">
-                        </div>
-                    </div>
-                    <div>
-                        <div style="text-align: center;">
-                            <label class="inputtext">Y</label>
-                        </div>
-                        <div>
-                            <input data-id="bY" value={getOutputTrapeze.b.y} type="text" class="smallinput slds-input">
-                        </div>
-                    </div>
-                </div>
-                <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-p-bottom_large"
-                    style="grid-template-columns: 20px 60px 60px; column-gap: 3px; display: grid;">
-                    <div style="text-align: center;" class="slds-p-top_large slds-m-right_x-small">
-                        <label class="inputtext">C:</label>
-                    </div>
-                    <div>
-                        <div style="text-align: center;">
-                            <label class="inputtext">X</label>
-                        </div>
-                        <div>
-                            <input data-id="cX" value={getOutputTrapeze.c.x} type="text" class="smallinput slds-input">
-                        </div>
-                    </div>
-                    <div>
-                        <div style="text-align: center;">
-                            <label class="inputtext">Y</label>
-                        </div>
-                        <div>
-                            <input data-id="cY" value={getOutputTrapeze.c.y} type="text" class="smallinput slds-input">
-                        </div>
-                    </div>
-                </div>
-                <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-p-bottom_large"
-                    style="grid-template-columns: 20px 60px 60px; column-gap: 3px; display: grid;">
-                    <div style="text-align: center;" class="slds-p-top_large slds-m-right_x-small">
-                        <label class="inputtext">D:</label>
-                    </div>
-                    <div>
-                        <div style="text-align: center;">
-                            <label class="inputtext">X</label>
-                        </div>
-                        <div>
-                            <input data-id="dX" value={getOutputTrapeze.d.x} type="text" class="smallinput slds-input">
-                        </div>
-                    </div>
-                    <div>
-                        <div style="text-align: center;">
-                            <label class="inputtext">Y</label>
-                        </div>
-                        <div>
-                            <input data-id="dY" value={getOutputTrapeze.d.y} type="text" class="smallinput slds-input">
-                        </div>
-                    </div>
-                </div>
-                <div class="slds-col slds-size_2-of-12 slds-align_absolute-center"
-                    style="height: 100%; grid-template-rows: 38px 38px 38px; display: grid;">
-                    <div>
-                        <button class="actionbutton" data-id="image-button" onclick={handleBuildTrapeze}>Build</button>
-                    </div>
-                    <div>
-                        <button class="actionbutton" onclick={handleDownloadImg}>Download</button>
-                    </div>
-                    <div>
-                        <button class="actionbutton" onclick={handleBuildOriginTrapeze}>Build Origin</button>
-                    </div>
+                <div class="slds-align_absolute-center">
+                    <input type="number" value={unitSegmentCoefficient} onchange={handleChangeUnitSegment}
+                        class="smallinput slds-input">
                 </div>
             </div>
         </div>
+        <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-p-bottom_large"
+            style="grid-template-columns: 20px 60px 60px; column-gap: 3px; display: grid;">
+            <div style="text-align: center;" class="slds-p-top_large slds-p-right_x-small">
+                <label class="inputtext">A:</label>
+            </div>
+            <div>
+                <div style="text-align: center;">
+                    <label class="inputtext">X</label>
+                </div>
+                <div>
+                    <input data-id="aX" value={getOutputTrapeze.a.x} type="text" class="smallinput slds-input">
+                </div>
+            </div>
+            <div>
+                <div style="text-align: center;">
+                    <label class="inputtext">Y</label>
+                </div>
+                <div>
+                    <input data-id="aY" value={getOutputTrapeze.a.y} type="text" class="smallinput slds-input">
+                </div>
+            </div>
+        </div>
+        <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-p-bottom_large"
+            style="grid-template-columns: 20px 60px 60px; column-gap: 3px; display: grid;">
+            <div style="text-align: center;" class="slds-p-top_large slds-m-right_x-small">
+                <label class="inputtext">B:</label>
+            </div>
+            <div>
+                <div style="text-align: center;">
+                    <label class="inputtext">X</label>
+                </div>
+                <div>
+                    <input data-id="bX" value={getOutputTrapeze.b.x} type="text" class="smallinput slds-input">
+                </div>
+            </div>
+            <div>
+                <div style="text-align: center;">
+                    <label class="inputtext">Y</label>
+                </div>
+                <div>
+                    <input data-id="bY" value={getOutputTrapeze.b.y} type="text" class="smallinput slds-input">
+                </div>
+            </div>
+        </div>
+        <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-p-bottom_large"
+            style="grid-template-columns: 20px 60px 60px; column-gap: 3px; display: grid;">
+            <div style="text-align: center;" class="slds-p-top_large slds-m-right_x-small">
+                <label class="inputtext">C:</label>
+            </div>
+            <div>
+                <div style="text-align: center;">
+                    <label class="inputtext">X</label>
+                </div>
+                <div>
+                    <input data-id="cX" value={getOutputTrapeze.c.x} type="text" class="smallinput slds-input">
+                </div>
+            </div>
+            <div>
+                <div style="text-align: center;">
+                    <label class="inputtext">Y</label>
+                </div>
+                <div>
+                    <input data-id="cY" value={getOutputTrapeze.c.y} type="text" class="smallinput slds-input">
+                </div>
+            </div>
+        </div>
+        <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-p-bottom_large"
+            style="grid-template-columns: 20px 60px 60px; column-gap: 3px; display: grid;">
+            <div style="text-align: center;" class="slds-p-top_large slds-m-right_x-small">
+                <label class="inputtext">D:</label>
+            </div>
+            <div>
+                <div style="text-align: center;">
+                    <label class="inputtext">X</label>
+                </div>
+                <div>
+                    <input data-id="dX" value={getOutputTrapeze.d.x} type="text" class="smallinput slds-input">
+                </div>
+            </div>
+            <div>
+                <div style="text-align: center;">
+                    <label class="inputtext">Y</label>
+                </div>
+                <div>
+                    <input data-id="dY" value={getOutputTrapeze.d.y} type="text" class="smallinput slds-input">
+                </div>
+            </div>
+        </div>
+        <div class="slds-col slds-size_2-of-12 slds-align_absolute-center"
+            style="height: 100%; grid-template-rows: 38px 38px 38px; display: grid;">
+            <div>
+                <button class="actionbutton" data-id="image-button" onclick={handleBuildTrapeze}>Build</button>
+            </div>
+            <div>
+                <button class="actionbutton" onclick={handleDownloadImg}>Download</button>
+            </div>
+            <div>
+                <button class="actionbutton" onclick={handleBuildOriginTrapeze}>Build Origin</button>
+            </div>
+        </div>
     </div>
+</div>
+</div>
 </template>
