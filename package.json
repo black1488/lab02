@@ -1,7 +1,7 @@
 {
     "name": "my-app",
     "version": "0.0.1",
-    "author": "Vladyslav Hladkyi",
+    "author": "Ihor Chornenkyi",
     "bugs": "https://github.com/Vladyslav Hladkyi/my-app/issues",
     "dependencies": {
         "@lwc/synthetic-shadow": "^2.23.6",
