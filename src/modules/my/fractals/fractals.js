@@ -38,10 +38,10 @@ export default class Fractals extends LightningElement {
         this.isIce = false;
         this.isMinkowski = false;
 
-        if (event.target.value == 'levy') this.isLevy = true;
-        if (event.target.value == 'ice') this.isIce = true;
-        if (event.target.value == 'koch') this.isKoch = true;
-        if (event.target.value == 'minkowski') this.isMinkowski = true;
+        if (event.target.value === 'levy') this.isLevy = true;
+        if (event.target.value === 'ice') this.isIce = true;
+        if (event.target.value === 'koch') this.isKoch = true;
+        if (event.target.value === 'minkowski') this.isMinkowski = true;
     }
 
     handleDownloadImg() {
@@ -58,11 +58,11 @@ export default class Fractals extends LightningElement {
 
         this.isShowInfo = !this.isShowInfo;
 
-        if (this.isShowInfo == false) {
-            if (value == 'levy') this.isLevy = true;
-            if (value == 'ice') this.isIce = true;
-            if (value == 'koch') this.isKoch = true;
-            if (value == 'minkowski') this.isMinkowski = true;
+        if (this.isShowInfo === false) {
+            if (value === 'levy') this.isLevy = true;
+            if (value === 'ice') this.isIce = true;
+            if (value === 'koch') this.isKoch = true;
+            if (value === 'minkowski') this.isMinkowski = true;
         } else {
             this.isKoch = false;
             this.isLevy = false;
