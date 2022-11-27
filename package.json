@@ -2,7 +2,7 @@
     "name": "my-app",
     "version": "0.0.1",
     "author": "Ihor Chornenkyi",
-    "bugs": "https://github.com/Vladyslav Hladkyi/my-app/issues",
+    "bugs": "https://github.com/black1488/lab02/issues",
     "dependencies": {
         "@lwc/synthetic-shadow": "^2.23.6",
         "@salesforce-ux/design-system": "^2.19.0",
@@ -15,12 +15,12 @@
         "npm": ">=6.4.1",
         "yarn": ">=1.9.4"
     },
-    "homepage": "https://github.com/Vladyslav Hladkyi/my-app",
+    "homepage": "https://github.com/black1488/lab02",
     "keywords": [
         "lwc"
     ],
     "license": "MIT",
-    "repository": "Vladyslav Hladkyi/my-app",
+    "repository": "black1488/lab02",
     "scripts": {
         "build": "lwc-services build -m production",
         "build:development": "lwc-services build",
