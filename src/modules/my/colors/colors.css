@@ -3,7 +3,7 @@
   color: white;
   font-size: 16px;
   font-weight: bold;
-  font-family: 'Jaldi';
+  font-family: 'Times New Roman';
   border: none;
   width: 120px;
   height: 30px;
@@ -23,7 +23,7 @@
   color: #FFFFFF;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Jaldi';
+  font-family: 'Times New Roman';
   text-align: center;
 }
 
@@ -31,7 +31,7 @@
   color: #FFFFFF;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Jaldi';
+  font-family: 'Times New Roman';
   text-align: center;
 }
 
@@ -45,7 +45,7 @@
   display: grid;
   grid-template-rows: 6fr fr;
   font-size: 20px;
-  font-family: 'Jaldi';
+  font-family: 'Times New Roman';
 }
 
 .slider {

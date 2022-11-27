@@ -12,7 +12,7 @@
   color: #FFFFFF;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Jaldi';
+  font-family: 'Times New Roman';
 }
 
 .actionbutton {
@@ -20,7 +20,7 @@
   color: white;
   font-size: 16px;
   font-weight: bold;
-  font-family: 'Jaldi';
+  font-family: 'Times New Roman';
   border: none;
   width: 120px;
   height: 30px;
@@ -33,7 +33,7 @@
   display: inline-block;
   overflow: hidden;
   border: 1px solid #459fff;
-  font-family: 'Jaldi';
+  font-family: 'Times New Roman';
 }
 
 .information {
@@ -42,17 +42,17 @@
   border-radius: 20px;
   background-color: #c4f7ff;
   font-size: 16px;
-  font-family: 'Jaldi';
+  font-family: 'Times New Roman';
   display: grid;
   grid-template-rows: 6fr fr;
   font-size: 20px;
-  font-family: 'Jaldi';
+  font-family: 'Times New Roman';
 }
 
 .label {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Jaldi';
+  font-family: 'Times New Roman';
   color: white;
 }
 

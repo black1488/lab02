@@ -14,7 +14,7 @@
 
 .logoname {
     font-size: 75px;
-    font-family: 'Jaldi';
+    font-family: 'Times New Roman';
     color: #FFFFFF;
     text-shadow: 1px 1px #000dff;
     ;
@@ -44,7 +44,7 @@
     box-shadow: 1px 3px #53b2ff;
     font-size: 26px;
     font-weight: bold;
-    font-family: 'Jaldi';
+    font-family: 'Times New Roman';
 }
 
 .activemodulebutton {
@@ -56,7 +56,7 @@
     box-shadow: 1px 3px #53b2ff;
     font-size: 26px;
     font-weight: bold;
-    font-family: 'Jaldi';
+    font-family: 'Times New Roman';
 }
 
 .information {
@@ -65,5 +65,5 @@
     border-radius: 20px;
     background-color: #c4f7ff;
     font-size: 16px;
-    font-family: 'Jaldi';
+    font-family: 'Times New Roman';
 }
